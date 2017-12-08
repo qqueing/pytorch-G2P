@@ -1,5 +1,6 @@
 # (semi) Grapheme-to-Phoneme (G2P) - seq2seq model using PyTorch for Korean
 한국어 문자를 위한 G2P seq2seq 알고리즘의 구현 코드의 한국어 용입니다. 아주 minor 한 개선으로 기존 코드 살짝 수정한 수준입니다.
+
 이 코드는 목적은 기존의 G2P seq2seq 모델을 이용해서,
 한국어 자,모음 기준으로 표준어 형태의 문자열을 발음 나는 문자열로 변환 혹은 반대로 발음 문자열을 표준어 형태의 문자열로 변환하는 데에 있습니다. 
 이것은 캐릭터 레벨의 CTC를 학습하기 위해, 문자열을 발음 형태로 변환하거나 혹은 언어모델이 결합되지 않은 CTC 디코딩의 결과물을 문자열로 변환하는 용도로 고려되었습니다.
@@ -40,7 +41,7 @@ Also, use the part of code:
 ## Features
 - [x] 표준 문장열 --> 발음 문장열
 - [x] 발음 문장열 --> 표준 문장열(위의 모델과 인풋만 반대로 넣어주면 가능하며, build_vocab 에서 생성 가능합니다.)
-- [ ] 한국어 G2P 
+- [ ] 한국어 G2P (IPA 형식)
 
 ## Usage
 ### Preperation:
