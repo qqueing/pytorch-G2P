@@ -13,9 +13,19 @@
 
 ## Credits
 Original paper:
+- Luong's paper:
+```
+@article{
+  author    = {Minh-Thang Luong, Hieu Pham and Christopher D. Manning},
+  title     = {Effective Approaches to Attention-based Neural Machine Translation},
+  journal   = {CoRR},
+  volume    = {abs/1508.04025},
+  year      = {2015},
+}
+```
 - Kaisheng's paper:
 ```
-@article{DBLP:journals/corr/YaoZ15,
+@article{
   author    = {Kaisheng Yao and Geoffrey Zweig},
   title     = {Sequence-to-Sequence Neural Net Models for Grapheme-to-Phoneme Conversion},
   journal   = {CoRR},
